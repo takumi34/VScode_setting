@@ -1,0 +1,135 @@
+{
+  "workbench.tree.indent": 15,
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "terminal.integrated.shell.linux": "/usr/bin/fish",
+  "editor.fontFamily": "'Ricty Diminished Discord', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 18,
+  "terminal.integrated.fontFamily": "'Ricty Diminished Discord'",
+  "terminal.integrated.fontSize": 18,
+  "keyboard.dispatch": "keyCode",
+  "terminal.integrated.rendererType": "dom",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "clang.cxxflags": [
+    "-std=c++14"
+  ],
+  // If not specified searches for 'rubocop' executable available on PATH (default and recommended)
+  "ruby.rubocop.executePath": "",
+  // You can use specific path
+  // "ruby.rubocop.executePath": "/Users/you/.rbenv/shims/"
+  // "ruby.rubocop.executePath": "/Users/you/.rvm/gems/ruby-2.3.2/bin/"
+  // "ruby.rubocop.executePath": "D:/bin/Ruby22-x64/bin/"
+  // If not specified, it assumes a null value by default.
+  "ruby.rubocop.configFilePath": "/path/to/config/.rubocop.yml",
+  // default true
+  "ruby.rubocop.onSave": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ -O2 -std=c++14 -Wall $fileName && ./a.out < input.txt && rm ./a.out"
+  },
+  "[cpp]": {
+    // "editor.defaultFormatter":"",
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+  // "clang-format.executable": "${env.HOME}/.vscode/extensions/xaver.clang-format-1.9.0/.clang-format",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "type": "browser-preview",
+      "request": "attach",
+      "name": "Browser Preview: Attach"
+    },
+    {
+      "type": "browser-preview",
+      "request": "launch",
+      "name": "Browser Preview: Launch",
+      "url": "http://localhost:3000"
+    }
+  ],
+  "[go]": {
+    "editor.formatOnSave": true,
+  },
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "languageServerHaskell": {},
+  "languageServerHaskell.hieExecutablePath": "~/.local/bin/hie",
+  "todo-tree.highlights.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.jediEnabled": false,
+  "python.formatting.provider": "yapf",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "rust.mode": "legacy",
+  "todo-tree.tree.showScanModeButton": false,
+}
