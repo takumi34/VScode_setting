@@ -1,6 +1,6 @@
 {
   "workbench.tree.indent": 15,
-  "workbench.colorTheme": "Tomorrow Night Blue",
+  "workbench.colorTheme": "Kary Pro Colors － Dark",
   "terminal.integrated.shell.linux": "/usr/bin/fish",
   "editor.fontFamily": "'Ricty Diminished Discord', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 18,
@@ -13,9 +13,7 @@
   "clang.cxxflags": [
     "-std=c++14"
   ],
-  // If not specified searches for 'rubocop' executable available on PATH (default and recommended)
   "ruby.rubocop.executePath": "",
-  // You can use specific path
   // "ruby.rubocop.executePath": "/Users/you/.rbenv/shims/"
   // "ruby.rubocop.executePath": "/Users/you/.rvm/gems/ruby-2.3.2/bin/"
   // "ruby.rubocop.executePath": "D:/bin/Ruby22-x64/bin/"
@@ -27,7 +25,7 @@
   "code-runner.executorMap": {
     "javascript": "node",
     "php": "C:\\php\\php.exe",
-    "python": "python",
+    "python": "python3",
     "perl": "perl",
     "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
     "go": "go run",
@@ -37,11 +35,9 @@
     "cpp": "cd $dir && g++ -O2 -std=c++14 -Wall $fileName && ./a.out < input.txt && rm ./a.out"
   },
   "[cpp]": {
-    // "editor.defaultFormatter":"",
     "editor.tabSize": 4,
     "editor.defaultFormatter": "xaver.clang-format",
   },
-  // "clang-format.executable": "${env.HOME}/.vscode/extensions/xaver.clang-format-1.9.0/.clang-format",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.startupEditor": "newUntitledFile",
@@ -132,4 +128,11 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "rust.mode": "legacy",
   "todo-tree.tree.showScanModeButton": false,
+  "C_Cpp.updateChannel": "Insiders",
+  "workbench.panel.defaultLocation": "right",
+  "gitlens.views.repositories.files.layout": "list",
+  "launch": {},
+  "json.schemas": [
+  
+  ],
 }
